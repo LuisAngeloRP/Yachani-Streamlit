@@ -12,3 +12,4 @@ langchain_chroma
 pypdf
 python-docx
 python-pptx
+pysqlite3-binary

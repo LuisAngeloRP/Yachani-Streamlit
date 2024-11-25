@@ -3,3 +3,5 @@ venv
 old
 .env
 .venv
+.streamlit
+.streamlit/secrets.toml
