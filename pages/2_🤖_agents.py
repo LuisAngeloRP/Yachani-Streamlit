@@ -9,8 +9,6 @@ from langchain_chroma import Chroma
 from langchain_openai.embeddings import OpenAIEmbeddings
 import json
 from datetime import datetime
-import sys
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 st.set_page_config(
     page_title="Gestión de Asistentes",
