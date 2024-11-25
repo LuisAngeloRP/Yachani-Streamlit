@@ -1,4 +1,8 @@
 # pages/2_🤖_agents.py
+# pages/4_📤_upload.py
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import os
 import streamlit as st
 from utils.document_manager import DocumentManager
@@ -6,7 +10,6 @@ from langchain_chroma import Chroma
 from langchain_openai.embeddings import OpenAIEmbeddings
 import json
 from datetime import datetime
-import pysqlite3
 import sys
 sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
