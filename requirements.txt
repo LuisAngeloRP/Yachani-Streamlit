@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-openai
+langchain-core
+langchain-chroma
+chromadb
+openai
+PyMuPDF
+tiktoken
+langchain_chroma
+pypdf
+python-docx
+python-pptx
